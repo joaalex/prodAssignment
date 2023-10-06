@@ -1,0 +1,70 @@
+const prod =  [
+  {
+      id:1,
+      title:'...',
+      price:'...',
+      category:'...',
+      description:'...',
+      image:'...'
+  },
+  {
+      id:2,
+      title:'...',
+      price:'...',
+      category:'...',
+      description:'...',
+      image:'...'
+  },
+  {
+    id:3,
+    title:'...',
+    price:'...',
+    category:'...',
+    description:'...',
+    image:'...'
+},
+{
+    id:4,
+    title:'...',
+    price:'...',
+    category:'...',
+    description:'...',
+    image:'...'
+},
+{
+  id:5,
+  title:'...',
+  price:'...',
+  category:'...',
+  description:'...',
+  image:'...'
+},
+{
+  id:6,
+  title:'...',
+  price:'...',
+  category:'...',
+  description:'...',
+  image:'...'
+},
+{
+id:7,
+title:'...',
+price:'...',
+category:'...',
+description:'...',
+image:'...'
+},
+{
+id:8,
+title:'...',
+price:'...',
+category:'...',
+description:'...',
+image:'...'
+},
+];
+
+export{
+  prod
+}
