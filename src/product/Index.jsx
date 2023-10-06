@@ -2,14 +2,12 @@ import Button from "./components/Button";
 import Cardlist from "./components/Cardlist";
 import Input from "./components/Input";
 import Label from "./components/Label";
-import {useState, useEffect } from 'react';
+import {useState } from 'react';
 
 const Index = ()=>{
 
   const [search, setSearch] = useState('')
   const [product, setProducts] = useState([])
-
-  const [showLoad, setShowLoad] = useState(false)
 
   const prevent = (e)=>{
     e.preventDefault();
@@ -31,7 +29,6 @@ const Index = ()=>{
     fetch(`https://fakestoreapi.com/products/category/${input}`)
     .then((res) => res.json())
     .then((prod) => {
-      setShowLoad(true);
       setProducts(prod);  })
 
     setSearch("")
@@ -58,7 +55,7 @@ const Index = ()=>{
 
   return(
     <>
-      <div className="container" >
+      <div className="container " >
 
       <form className="w-50  m-auto mt-5 " onSubmit={prevent}>
         <Label htmlFor="search" labelText="Find Products"  />
@@ -69,8 +66,7 @@ const Index = ()=>{
         </div>
       </form>
       <div>
-        {/* <Card imgSc="" title="" price="" desc="" cate="" rate="" /> */}
-        <Cardlist showLoad={showLoad} product={product}/>
+        <Cardlist product={product}/>
       </div>
       </div>
     </>

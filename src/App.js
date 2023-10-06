@@ -4,9 +4,8 @@ import Index from './product/Index';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <Index/>
-      
     </div>
   );
 }

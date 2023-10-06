@@ -16,7 +16,7 @@ const Card = ({keyi, imgScr, title, price, desc, cate, rate})=>{
 
             <h5 style={{fontWeight:"900",}}>Category : <span style={{fontWeight:"lighter"}}>{cate}</span></h5>
 
-            <h5 style={{fontWeight:"900", }}>Rating : <span style={{fontWeight:"lighter"}}>{rate}</span></h5>
+            <h5 style={{fontWeight:"900", }}>Rating :<span style={{fontWeight:"lighter"}}>{rate}</span></h5>
           </div>
           
         </div>
