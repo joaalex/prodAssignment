@@ -5,6 +5,7 @@ import Index from './product/Index';
 function App() {
   return (
     <div className="App ">
+      
       <Index/>
     </div>
   );

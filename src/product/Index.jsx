@@ -3,6 +3,7 @@ import Cardlist from "./components/Cardlist";
 import Input from "./components/Input";
 import Label from "./components/Label";
 import {useState } from 'react';
+import Nav from "./components/nav/Nav";
 
 const Index = ()=>{
 
@@ -55,6 +56,7 @@ const Index = ()=>{
 
   return(
     <>
+    <Nav product={product}/>
       <div className="container " >
 
       <form className="w-50  m-auto mt-5 " onSubmit={prevent}>
